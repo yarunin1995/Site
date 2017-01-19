@@ -10,13 +10,12 @@ function init() {
   }*/
   $(document).ready(contacts);
   function contacts() {	
-		$("#contact").click(
+		$(".contacts").click(
      function(){
 	$('h1').text('CONTACTS'); 
 	$('section').html('<h2>Новый заголовок</h2><p>Новый текст, который содержит <a href="#">другую ссылку</a>.</p>');
-	$('#contact').css('background','#29c5e6');
-	$('#contact').css('color','#FFF');
-	$('#A').css('color','#FFF');
+	$('.contacts').css('background','#29c5e6');
+	$('.contacts a').css('color','#FFF');
 	 }
   );
   }
